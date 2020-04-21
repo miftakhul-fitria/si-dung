@@ -32,15 +32,7 @@
                       <td>{{ $dt->nama_gedung }}</td>
                       <td>{{ $dt->tanggal_pinjam }}</td>
                       <td>{{ $dt->status }}</td>
-                      <td>
-                        <div style="width:90px">
-                          <a href="{{ url('kelola-peminjaman/detail/'.$dt->id) }}" class="btn btn-primary btn-xs btn-detail" id="detail"><i class="fa fa-eye"></i></a> 
-                          
-                          <a href="{{ url('kelola-peminjaman/'.$dt->id) }}" class="btn btn-warning btn-xs btn-edit" id="edit"><i class="fa fa-pencil-square-o"></i></a> 
-
-                          <a href="{{ url('kelola-peminjaman/'.$dt->id) }}" class="btn btn-danger btn-xs btn-hapus" id="delete"><i class="fa fa-trash-o"></i></a>
-                        </div>
-                      </td>
+                      
                     </tr>
                     @endforeach
                   </tbody>
