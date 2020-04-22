@@ -29,9 +29,9 @@ class PeminjamanController extends Controller
     }
 
     public function update(Request $request,$id){
-        // $this->validate($request,[
-        //     'status'=>'required'
-        // ]);
+        $this->validate($request,[
+            'status'=>'required',
+        ]);
 
         $data['status'] = $request->status;
         $data['updated_at'] = date('Y-m-d H:i:s');

@@ -24,7 +24,7 @@
                 @endif
             </div>
             <div class="box-body">
-                <form role="form" method="POST" action="{{ url('kelola-gedung/'.$dt->id) }}">
+                <form role="form" method="POST" action="{{ url('kelola-peminjaman/'.$dt->id) }}">
                     @csrf
                     {{ method_field('PUT') }}
                     <div class="box-body">
