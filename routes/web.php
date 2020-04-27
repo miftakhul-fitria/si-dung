@@ -48,6 +48,10 @@ Route::group(['middleware'=>'auth'],function(){
 
 	Route::get('kelola-peminjaman/{id}','PeminjamanController@edit');
 	Route::put('kelola-peminjaman/{id}','PeminjamanController@update');
+
+	//Export excel
+	Route::get('export','ExportController@index');
+	Route::get('/export/export_excel', 'ExportController@export_excel');
 });
 
 Auth::routes();

@@ -14,6 +14,7 @@ class PeminjamanController extends Controller
     	return view('peminjaman.index',compact('title','data'));
     }
 
+
     public function detail($id){
     	$dt =  Peminjaman::find($id);
         $title = "Detail Peminjaman $dt->nama_gedung";

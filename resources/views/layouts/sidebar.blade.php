@@ -10,6 +10,8 @@
 
         <li class="menu-sidebar"><a href="{{ url('/kelola-peminjaman') }}"><span class="fa fa-pencil"></span>Kelola Peminjaman</span></a></li>
 
+        <li class="menu-sidebar"><a href="{{ url('/export') }}"><span class="fa fa-print"></span>Export Peminjaman</span></a></li>
+
         <li class="header">OTHER</li>
 
         <li class="menu-sidebar"><a href="{{ url('/keluar') }}"><span class="glyphicon glyphicon-log-out"></span> Logout</span></a></li>
