@@ -2,6 +2,6 @@
  
 @section('content')
 <div style="margin-top: 20%;">
-  <center><a href="/export/export_excel" class="btn btn-success my-3 fa fa-print" target="_blank" style="font-size: 20px; padding: 15px;"> EXPORT DATA PEMINJAMAN</a></center>
+  <center><a href="/export/export_excel" class="btn btn-success my-3 fa fa-download" target="_blank" style="font-size: 20px; padding: 15px;"> EXPORT DATA PEMINJAMAN</a></center>
 </div>
 @endsection
