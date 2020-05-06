@@ -87,13 +87,18 @@
                         </div>
 
                         <div class="form-group">
-                            <label for="exampleInputEmail1">Status</label>
-                            <input type="text" name="status" class="form-control" id="exampleInputEmail1" placeholder="Disetujui / Tidak disetujui" value="{{ $dt->status }}" disabled="">
+                            <label for="exampleInputEmail1">Deskripsi</label>
+                            <input type="text" name="deskripsi" class="form-control" id="exampleInputEmail1" placeholder="Deskripsi" value="{{ $dt->deskripsi }}" disabled>
                         </div>
 
                         <div class="form-group">
-                            <label for="exampleInputEmail1">Deskripsi</label>
-                            <input type="text" name="deskripsi" class="form-control" id="exampleInputEmail1" placeholder="Deskripsi" value="{{ $dt->deskripsi }}" disabled>
+                            <label for="exampleInputEmail1">Konfirmasi</label>
+                            <input type="text" name="konfirmasi" class="form-control" id="exampleInputEmail1" placeholder="Konfirmasi" value="{{ $dt->konfirmasi }}" disabled>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Status</label>
+                            <input type="text" name="status" class="form-control" id="exampleInputEmail1" placeholder="Disetujui / Tidak disetujui" value="{{ $dt->status }}" disabled="">
                         </div>
                     </div>
                     <!-- /.box-body -->

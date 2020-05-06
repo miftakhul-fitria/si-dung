@@ -20,6 +20,7 @@
                            <th>Nama</th>
                            <th>Nama Gedung</th>
                            <th>Tanggal Pinjam</th>
+                           <th>Konfirmasi</th>
                            <th>Status</th>
                            <th>Action</th>
                        </tr>
@@ -31,6 +32,7 @@
                       <td>{{ $dt->nama }}</td>
                       <td>{{ $dt->nama_gedung }}</td>
                       <td>{{ $dt->tanggal_pinjam }}</td>
+                      <td>{{ $dt->konfirmasi }}</td>
                       <td>{{ $dt->status }}</td>
                       <td>
                         <div style="width:90px">
