@@ -48,6 +48,9 @@ Route::group(['middleware'=>'auth'],function(){
 
 	Route::get('kelola-peminjaman/{id}','PeminjamanController@edit');
 	Route::put('kelola-peminjaman/{id}','PeminjamanController@update');
+	//filter tanggal
+	Route::get('kelola-peminjaman/periode','PeminjamanController@periode');
+
 
 	//Export excel
 	Route::get('export','ExportController@index');

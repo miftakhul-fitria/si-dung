@@ -10,6 +10,6 @@ class Peminjaman extends Model
 
     //Relasi
     // public function gedungs(){
-    // 	return $this->belongsTo('App\Models\Jadwal','nama_gedung','nama_gedung');
+    // 	return $this->belongsTo('App\Models\Jadwal','nama_gedung','id');
     // }
 }

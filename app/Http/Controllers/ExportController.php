@@ -12,7 +12,7 @@ use App\Http\Controllers\Controller;
 class ExportController extends Controller
 {
     public function index(){
-    	$title = 'Kelola Peminjaman';
+    	$title = 'Export Data Peminjaman';
     	$data = Peminjaman::get();
 
     	return view('export.index',compact('title','data'));
