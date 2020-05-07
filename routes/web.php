@@ -14,13 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return redirect('beranda');
+    return redirect('list-user');
 });
 
 //Hanya bisa diakses oleh admin yg sudah login
 Route::group(['middleware'=>'auth'],function(){
-
-	Route::get('beranda','BerandaController@index');
+	//List User
+	Route::get('list-user','UserController@index');
 
 	//Kelola Gedung
 	Route::get('kelola-gedung','GedungController@index');
@@ -60,7 +60,7 @@ Route::group(['middleware'=>'auth'],function(){
 Auth::routes();
 
 Route::get('/home', function(){
-	return redirect('beranda');
+	return redirect('list-user');
 });
 
 Route::get('keluar',function(){

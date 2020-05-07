@@ -4,6 +4,13 @@
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu" data-widget="tree">
         <li class="menu-sidebar">
+          <a href="{{ url('/list-user') }}">
+            <i class="fa fa-users"></i>
+            <span>List User</span>
+          </a>
+        </li>
+
+        <li class="menu-sidebar">
           <a href="{{ url('/kelola-gedung') }}">
             <i class="fa fa-building"></i>
             <span>Kelola Gedung</span>
